@@ -55,6 +55,11 @@ const updateTimer = () => {
 
     secondsBlock.textContent = '00'
     secondsBlock.style.color = 'red'
+    
+    daysBlock.nextElementSibling.textContent = 'дней';
+    hoursBlock.nextElementSibling.textContent = 'часов';
+    minutesBlock.nextElementSibling.textContent = 'минут';
+    secondsBlock.nextElementSibling.textContent = 'секунд';
   }
 }
 
