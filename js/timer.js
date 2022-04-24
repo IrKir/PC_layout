@@ -39,7 +39,7 @@ const updateTimer = () => {
 
   daysBlock.nextElementSibling.textContent = numWord(days, ['День', 'Дня', 'Дней']) 
   hoursBlock.nextElementSibling.textContent = numWord(hours, ['Час', 'Часа', 'Часов'])
-  minutesBlock.nextElementSibling.textContent = numWord(hours, ['Минута', 'Минуты', 'Минут'])
+  minutesBlock.nextElementSibling.textContent = numWord(minutes, ['Минута', 'Минуты', 'Минут'])
   secondsBlock.nextElementSibling.textContent = numWord(seconds, ['Секунда', 'Секунды', 'Секунд']) 
 
   if (timeRemaining <= 0) {
